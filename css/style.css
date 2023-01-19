@@ -25,7 +25,7 @@ h1, h4 {
 }
 
 .container {
-    max-width: 70vw;
+    max-width: 65vw;
     margin: 30px auto 0px;
 }
 
@@ -38,7 +38,12 @@ main > .top {
 }
 
 main > .top :first-child {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
+    color: #e53170;
+}
+
+main > .top p:last-child {
+    font-size: 14px;
 }
 
 /*---------------------------
@@ -51,24 +56,33 @@ div.card {
     float: left;
     background-color: black;
     color: white;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.44); 
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.44);
 }
 
+/*---------------------------
+CARD IMAGE
+---------------------------*/
 .card > img:only-of-type {
     height: 100%;
     float: left;
     margin-right: 15px;
 }
 
-.data > div:nth-child(2) {
-    margin: 4px 0;
-}
-
-.card a:last-child {
-    text-decoration: none;
-    color: #17ccf2
-}
-
+/*---------------------------
+CARD DATA
+---------------------------*/
 .card > div.data {
     padding: 8px 0;
     font-size: 13px;
+}
+
+.data > div:nth-child(2) {
+    margin: 4px 0;
+    font-weight: 500;
+}
+
+.data a:last-child {
+    text-decoration: none;
+    color: #17ccf2
 }
