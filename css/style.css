@@ -10,6 +10,14 @@ RESET
 /*---------------------------
 COMMON
 ---------------------------*/
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h4 {
+    font-weight: 1000;
+}
+
 .clearfix::after {
     content: '';
     display: block;
@@ -51,14 +59,16 @@ div.card {
     margin-right: 15px;
 }
 
+.data > div:nth-child(2) {
+    margin: 4px 0;
+}
+
 .card a:last-child {
     text-decoration: none;
+    color: #17ccf2
 }
 
-.data > div:nth-child(2) {
-    margin: 3px 0;
-}
-
-.card > .data {
-    padding: 6px 0;
+.card > div.data {
+    padding: 8px 0;
+    font-size: 13px;
 }
