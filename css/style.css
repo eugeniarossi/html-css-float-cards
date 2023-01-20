@@ -12,6 +12,7 @@ COMMON
 ---------------------------*/
 body {
     font-family: 'Nunito', sans-serif;
+    color: #0f0e17;
 }
 
 h1, h3 {
@@ -38,12 +39,13 @@ main > .top {
 }
 
 main > .top :first-child {
-    margin-bottom: 35px;
+    margin: 35px;
     color: #e53170;
 }
 
 main > .top p:last-child {
     font-size: 14px;
+    line-height: 1.5em;
 }
 
 /*---------------------------
